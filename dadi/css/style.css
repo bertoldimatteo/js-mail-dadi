@@ -26,3 +26,10 @@ p {
     font-size: 40px;
     color: red;
 }
+.btn {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1DA1F2;
+    color: #fff;
+}
