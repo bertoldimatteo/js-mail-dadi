@@ -13,9 +13,11 @@ submit.addEventListener("click",
         const userInput = document.getElementById("userInput").value;
         const userPwd = document.getElementById("userPwd");
         if (mail.includes(userInput)) {
+            const welcome = document.getElementById("title").innerHTML = 
+            "Bentornato";
             userPwd.classList.add("showClass")
         } else {
-            console.log("User is not registered.");
+            alert("User is not registered.");
         };
     }
 );
